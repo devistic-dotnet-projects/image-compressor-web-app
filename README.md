@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to my Image Compression and Size Reduction Web Application developed in .NET. This application allows users to easily compress and reduce the file size of both jpg and png image formats. Whether you're looking to optimize images for your website, reduce storage space, or improve loading times, our app has you covered.
+Welcome to my Image Compression and Size Reduction Web Application developed in .NET. This application allows users to easily compress and reduce the file size of both jpg and png image formats. Whether you're looking to optimize images for your website, reduce storage space, or improve loading times, my app has you covered.
 
 ## Features
 
