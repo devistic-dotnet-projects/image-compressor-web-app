@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Image Compressor">
+    <meta name="author" content="Devistic Asim">
+    <title>@ViewBag.Title - Devistic Image Compressor</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Devistic Image Compressor</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link active" aria-current="page">Home</a>
+                    @*<a class="nav-link" href="#">Features</a>*@
+                    @*<a class="nav-link" href="#">Contact</a>*@
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            @RenderBody()
+        </div>
+
+        <footer class="mt-auto text-white-50">
+            <p>&copy; @DateTime.Now.Year - Devistic Image Compressor</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

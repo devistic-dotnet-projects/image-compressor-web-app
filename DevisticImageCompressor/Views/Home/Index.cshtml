@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Upload Page";
+}
+@{
+    string base64CompressedImage = ViewBag.Image as string;
+}
+
+<main class="row px-3">
+    <div class="col-md-6 offset-md-3">
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="image" class="form-label">Upload your image here</label>
+                <br />
+                <input type="file" class="form-control" id="image" name="image" accept="image/*" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Compress</button>
+        </form>
+
+        @if (!string.IsNullOrEmpty(base64CompressedImage))
+        {
+            <div class="row">
+                <div class="col-md-12 pt-3">
+                    <img src="data:image/jpeg;base64, @base64CompressedImage" alt="Compressed Image" class="img-fluid img-thumbnail" />
+
+                    <br />
+                    <br />
+                    <p>
+                        <span>Original File Size: @ViewBag.OriginalFileSizeMB MB</span>
+                        <br />
+                        <span>Compressed File Size: @ViewBag.CompressedFileSizeMB MB</span>
+                    </p>
+                </div>
+            </div>
+        }
+
+    </div>
+</main>
