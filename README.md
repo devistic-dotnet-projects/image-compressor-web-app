@@ -23,6 +23,9 @@ Welcome to my Image Compression and Size Reduction Web Application developed in 
 - ASP.NET MVC Version 5.2.7
 - Bootstrap Version 5.0
 
+## Screenshot
+![image](https://github.com/devistic-dotnet-projects/image-compressor-web-app/assets/73778163/e144520d-acc1-43f5-b383-e5f4b5c9f1d1)
+
 ## Contributions
 
 I welcome contributions from the community to enhance this application. If you have ideas for improvements or bug fixes, feel free to create a pull request.
