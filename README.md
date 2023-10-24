@@ -17,6 +17,12 @@ Welcome to my Image Compression and Size Reduction Web Application developed in 
 2. Click the "Compress" button. 
 3. Download (Click Save As) the optimized image.
 
+## Information
+
+- .NET Framework Version 4.7.2
+- ASP.NET MVC Version 5.2.7
+- Bootstrap Version 5.0
+
 ## Contributions
 
 I welcome contributions from the community to enhance this application. If you have ideas for improvements or bug fixes, feel free to create a pull request.
